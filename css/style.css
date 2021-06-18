@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    padding: 10%;
+    padding: 2%;
     background-image: url('/img/fondo.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -26,9 +26,9 @@ h3 {
 }
 
 h4 {
-    margin: 0%;
+    margin: 0px;
     color: #e7f7f4;
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
 }
 
 .circularImage {
@@ -58,24 +58,35 @@ button:hover{
     opacity: 0.8;
 }
 
+#quienSoy {
+    margin: 10%
+}
 
 
 main {
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
+
 
 #footer {
     background-color: #282741;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 0%;
     vertical-align: middle;
 }
 
 .centered {
-    margin-left: 10px;
-    margin-bottom: 0%;    
+    text-align: center;   
+}
+
+.footerContainer {
+    width: 220px;
+    padding-top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .boldItalic{
